@@ -12,12 +12,14 @@ body {
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 header {
   box-shadow: 0px 2px 0px 0px rgba(252, 249, 249, 0.322);
+  align-items: center;
 }
 
 .nav-logo {
@@ -28,8 +30,10 @@ header {
 .nav-items {
   list-style: none;
   display: inline-flex;
-  position: absolute;
   line-height: 2em;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .nav-items > li {
